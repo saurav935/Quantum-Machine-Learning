@@ -81,7 +81,7 @@ circuit.append(second_moment)
 
 # SIMULATION:
 
-# Before starting the simulation, we need to insert measurements at # the end of our quantum circuits
+# Before starting the simulation, we need to insert measurements at the end of our quantum circuits
 measurement = cirq.Moment([cirq.measure(qubit) for qubit in total_qubits])
 
 # Append it to the circuit
