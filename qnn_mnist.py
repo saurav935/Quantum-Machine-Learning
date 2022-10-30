@@ -221,7 +221,7 @@ model.compile(
 """# **Training the model**"""
 
 qnn_history = model.fit(
-      x_train_tensors_subset, y_train_hinge_subset,
+      x_train_tensors, y_train_hinge,
       batch_size=32,
       epochs=10,
       verbose=1,
